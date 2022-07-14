@@ -1,0 +1,9 @@
+add_library(endpoint
+  STATIC 
+  rest_server.cpp
+  rest_server.hpp
+  controls_controller.cpp
+  controls_controller.hpp
+  sensor_controller.cpp
+  sensor_controller.hpp
+  )
