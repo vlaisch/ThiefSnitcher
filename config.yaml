@@ -1,0 +1,11 @@
+
+sensors:
+  - name: motion1
+    danger_zone: high
+    type: motion
+    floor: 0
+  
+  - name: main_door 
+    danger_zone: high
+    type: door
+    floor: 0

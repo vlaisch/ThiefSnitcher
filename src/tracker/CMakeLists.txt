@@ -3,4 +3,5 @@ add_library(tracker
   thief_tracker.hpp
   thief_tracker_impl.cpp
   thief_tracker_impl.hpp
+  snap_shot_cam.hpp
   )

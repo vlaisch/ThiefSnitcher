@@ -1,11 +1,13 @@
 #pragma once
 
 enum class MonitoringCmd {
-  controlsArm = 0,
-  controlsDisarm = 1,
-  sensorAlert = 2,
+  controlsArm,
+  controlsDisarm,
+  sensorPush,
 };
 
 struct MonitoringMsg {
   MonitoringCmd cmd;
+  std::string name;
+  bool alert;
 };

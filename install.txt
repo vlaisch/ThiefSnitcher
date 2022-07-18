@@ -1,4 +1,6 @@
 apt add-repository "pistache"
 
+apt install libyaml-dev
+
 cmake
 
